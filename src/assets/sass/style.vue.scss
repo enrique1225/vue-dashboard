@@ -1,0 +1,29 @@
+//
+// Main Style
+//
+////////////////////////////////////////////////////////////////
+///////////// DO NOT MODIFY BELOW INCLUDE ORDER ////////////////
+////////////////////////////////////////////////////////////////
+// 1: Initialize
+@import "init";
+// 2: Bootstrap framework includes
+@import "~bootstrap/scss/bootstrap";
+// 3: Components
+@import "components/utilities/background",
+"components/utilities/flex",
+"components/utilities/borders",
+"components/utilities/sizing",
+"components/utilities/text",
+"components/utilities/icon",
+"components/burger-icon",
+"components/buttons",
+"components/forms",
+"components/loader",
+"components/scrolltop",
+"components/sticky-toolbar";
+// 5: Layout
+@import "layout/init";
+// my Aspnet Zero
+@import "layout/aspnet" ////////////////////////////////////////////////////////////////
+///////////// DO NOT MODIFY ABOVE INCLUDE ORDER ////////////////
+////////////////////////////////////////////////////////////////

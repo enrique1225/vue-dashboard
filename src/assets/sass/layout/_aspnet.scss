@@ -1,0 +1,289 @@
+/*============ login and register =========*/
+
+.login_form {
+    width: 100%;
+    max-width: 450px;
+    margin: 10px auto !important;
+}
+
+#remember_group {
+    display: flex!important;
+}
+
+#remember_group span {
+    margin: -2px 0 0 10px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #0089ca!important;
+    border-color: #0089ca!important;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    svg {
+        margin-bottom: 1px;
+    }
+    &:hover {
+        background-color: #fff!important;
+        color: #0089ca!important;
+        i {
+            color: #0089ca!important;
+        }
+    }
+}
+
+.center_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left_div {
+    display: flex;
+    align-items: center;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.divide_line {
+    width: 100%;
+    height: 1px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: #ebecf1;
+    display: inline-block;
+}
+
+.divide_text {
+    padding: 0 2rem;
+}
+
+.login_account {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.register_btns .btn:first-child {
+    box-shadow: 0 4px 16px 0 rgba(153, 153, 153, .15)
+}
+
+.register_btns .btn:last-child {
+    box-shadow: 0 4px 16px 0 rgba(88, 103, 221, .15);
+    background-color: #5867dd;
+    color: white;
+}
+
+
+/*============ admin shell ... layout =========*/
+
+.logo {
+    width: 116px;
+}
+
+.aside-menu .menu-nav>.menu-item.menu-item-active>.menu-heading,
+.aside-menu .menu-nav>.menu-item.menu-item-active>.menu-link {
+    background-color: #f6f7fd!important;
+}
+
+.aside-menu .menu-nav>.menu-item.menu-item-active>.menu-heading .menu-text,
+.aside-menu .menu-nav>.menu-item.menu-item-active>.menu-link .menu-text {
+    color: #5d78ff!important;
+}
+
+.kt-font-bold {
+    font-weight: 500!important;
+}
+
+//... user panel custom datepicker
+#datepicker-dateformat2__dialog_,
+#datepicker-dateformat3__dialog_ {
+    left: 90px!important;
+}
+
+#datepicker-dateformat2__outer_,
+#datepicker-dateformat3__outer_ {
+    margin-bottom: 20px;
+}
+
+.v-pagination .v-pagination__item {
+    background-color: #007ad9!important;
+    color: #ffffff!important;
+    padding-top: 0px;
+    cursor: pointer!important;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 400;
+    opacity: 1!important;
+}
+
+.btn-filter .fa-filter:focus {
+    outline: none;
+}
+
+.ripple-parent {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.page-item .page-link .pagination:hover,
+.page-item .page-link .pagination:focus {
+    background: none!important;
+    color: #7E8299!important;
+}
+
+.disabled,
+ :disabled {
+    pointer-events: none !important;
+}
+
+.table th,
+.table td {
+    vertical-align: middle!important;
+}
+
+.table-bordered {
+    thead {
+        background: #f4f4f4;
+        th {
+            font-weight: 600!important;
+            padding: 1rem 1rem;
+            border: none!important;
+            font-size: 1.2rem;
+        }
+        tr {
+            background: #fff;
+        }
+    }
+    tbody {
+        td {
+            padding: 2px 1rem;
+            border: none!important;
+        }
+        tr {
+            background: #fff;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9!important;
+        }
+    }
+}
+
+tfoot {
+    display: none;
+}
+
+.table-bordered thead th:hover {
+    cursor: pointer;
+}
+
+.pagination {
+    float: right;
+    .page-item {
+        margin-left: 0.4rem;
+        min-height: 29px;
+        height: 29px;
+        .page-link {
+            margin-right: 2px !important;
+            margin-left: 2px !important;
+            font-size: 1.1rem;
+            border: 0;
+            z-index: 3;
+            padding: 7px;
+            outline: 0;
+            width: 30px;
+            height: 30px;
+            position: relative;
+            display: block;
+            font-weight: 500;
+            color: #999;
+        }
+    }
+    .page-item.active .page-link {
+        background-color: #0089ca;
+        color: #ffffff;
+    }
+}
+
+.dataTables_filter {
+    float: none!important;
+}
+
+.custom-select {
+    width: 70px!important;
+}
+
+.RefreshButton {
+    float: right;
+}
+
+.symbol.symbol-20>img {
+    border-radius: 0;
+}
+
+.green_attempts {
+    padding: 15px;
+    border: 1px solid #0abb87;
+    color: #0abb87;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    .attempt {
+        margin-bottom: 5px;
+        label {
+            font-weight: 600;
+        }
+    }
+}
+
+.red_attempts {
+    padding: 15px;
+    border: 1px solid #fd397a;
+    color: #fd397a;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    .attempt {
+        margin-bottom: 5px;
+        label {
+            font-weight: 600;
+        }
+    }
+}
+
+.ideas_body {
+    padding: 20px 30px;
+    background: #fff;
+}
+
+.vue-treeselect__menu {
+    max-height: unset!important;
+    line-height: 2.5!important;
+}
+
+img.preview {
+    width: 100%;
+    background-color: white;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+.form-group label {
+    font-size: unset!important;
+}
+
+.pull-right {
+    float: right;
+}

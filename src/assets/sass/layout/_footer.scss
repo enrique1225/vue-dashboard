@@ -1,0 +1,29 @@
+//
+// Content
+//
+// Desktop Mode
+@include media-breakpoint-up(lg) {
+    .footer {
+        font-size: 10px;
+        margin-left: calc(100% - 400px);
+        border-top-left-radius: 30px;
+        a {
+            color: #000;
+        }
+        // Fixed Mode
+        .footer-fixed & {
+            position: fixed;
+            height: get($footer-config, fixed, height);
+            z-index: get($footer-config, fixed, z-index);
+            box-shadow: get($footer-config, fixed, shadow);
+            bottom: 0;
+            right: 0;
+            left: get($aside-config, base, width);
+        }
+        // Aside Minimized, Aside Minimize Hover & Fixed Footer Modes
+        .aside-minimize-hover.footer-fixed &,
+        .aside-minimize.footer-fixed & {
+            left: get($aside-config, base, minimized-width);
+        }
+    }
+}
